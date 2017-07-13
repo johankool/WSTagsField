@@ -181,7 +181,7 @@ open class WSTagsField: UIView {
     }
 
     open fileprivate(set) var tags = [WSTag]()
-    internal var tagViews = [WSTagView]()
+    open fileprivate(set) var tagViews = [WSTagView]()
     fileprivate var intrinsicContentHeight: CGFloat = 0.0
 
 
